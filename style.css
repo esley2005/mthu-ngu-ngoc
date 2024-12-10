@@ -1,0 +1,66 @@
+/* Thiết lập chung */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #ffcce7;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+#main-image, #success-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Nội dung chính */
+.content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ff66a1;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Nút bấm */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.green {
+  background-color: #66ff99;
+  color: #fff;
+}
+
+.red {
+  background-color: #ff6666;
+  color: #fff;
+}
+
+/* Hiệu ứng nút khi hover */
+.btn:hover {
+  transform: scale(1.1);
+}
